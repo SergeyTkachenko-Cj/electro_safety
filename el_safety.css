@@ -47,28 +47,32 @@ p.p1 {
 }
 
 #pozvonim-button .pozvonim-button-phone.pozvonim-animated {
-    /*border: 2px solid white!important;*/
-    background-color: #FF00FF!important
+    /*border: 2px solid white !important;*/
+    background-color: green !important
 }
 
 #pozvonim-button .pozvonim-button-text.pozvonim-animated {
-    /*border: 2px solid white!important;*/
-    background-color: #FF00FF!important
+    /*border: 2px solid white !important;*/
+    background-color: green !important
 }
 
 #pozvonim-button .actionShow .pozvonim-button-border-inner {
-    border-color: #FF00FF!important;
+    border-color: green !important;
     animation-direction: alternate
 }
 
 #pozvonim-button:hover .actionShow .pozvonim-button-border-inner,
 #pozvonim-button:hover .actionShow .pozvonim-button-border-outer {
-    border-color: #FF00FF!important
+    border-color: green !important
 }
 
 #pozvonim-button .actionShow .pozvonim-button-border-outer {
-    border-color: #FF00FF!important;
+    border-color: green !important;
     animation-direction: alternate
+}
+
+#pozvonim-chat.pozvonim-chat--panel {
+    background-color: green !important
 }
 
 #chat-24-widget-container #chat-24-title {
@@ -77,6 +81,21 @@ p.p1 {
 
 #chat-24-close-icons {
     display: none!important
+}
+
+#chat-24-widget-container #chat-24-icon-7, 
+#chat-24-widget-container .chat-24-icon-7, 
+#chat-24-widget-container .chat-24-icon-lch {
+    background-image: url(http://argus.group/electro_safety/wp-content/uploads/2019/06/kisspng-computer-icons-online-chat-chat-room-livechat-chat-icon-5adfb67a5a46f1.8359959715246106823698.jpg) !important;
+}
+
+#chat-24-widget-container #chat-24-desktop #chat-24-inner-container,
+#chat-24-widget-container #chat-24-desktop #chat-24-inner-container:hover {
+    background: #f7f9f9 !important
+}
+ 
+#chat-24-icon-7 {
+    outline: 1px solid transparent
 }
 
 #body_lch {
@@ -92,19 +111,19 @@ p.p1 {
 }
 
 #chat-24-widget-container #chat-24-popup-7 #chat-24-inner-container-lch #body_lch #widget-message-area .one-message_lch .auto_answer_lch.chat-24-bubbles-dark-blue {
-    background-color: #1488CC!important
+    background-color: green !important
 }
 
 #chat-24-widget-container #chat-24-popup-7 #chat-24-inner-container-lch #body_lch #widget-message-area .one-message_lch .client_lch.chat-24-bubbles-green {
-    background-color: #1488CC!important
+    background-color: green !important
 }
 
 #chat-24-widget-container #chat-24-popup-7 #chat-24-inner-container-lch #chat-24-live-chat-input #send-btn-lch.chat-24-bubbles-green {
-    background-color: #1488CC!important
+    background-color: green !important
 }
 
 #chat-24-widget-container #chat-24-popup-7 #chat-24-inner-container-lch .chat-24-popup-close-container {
-    background-color: #1488CC!important
+    background-color: green !important
 }
 
 #callback {
@@ -114,7 +133,7 @@ p.p1 {
 i.fa.fa-check.fa-left_check {
     margin-right: .5em;
     font-size: 1.7em;
-    color: #9b98aa
+    color: #D6CF27
 }
 
 i.fa.fa-check.fa-right_check {
@@ -123,8 +142,20 @@ i.fa.fa-check.fa-right_check {
     color: #1488CC
 }
 
+.main-nav>li:not(.act):not(.wpml-ls-item)>a .menu-text,
+.main-nav>li:not(.act):not(.wpml-ls-item)>a:hover .menu-text {
+    color: black !important;
+    text-shadow: 1px 1px 5px white;
+}
+
+.top-header .hover-outline-decoration>li:not(.act)>a:hover, 
+.top-header .hover-outline-decoration>li.dt-hovered:not(.act)>a {
+    border: 2px solid #000 !important;
+    text-shadow: 0 2px 2px white;
+}
+
 .menu-text, .mini-widgets div p {
-    text-shadow: 2px 2px crimson;
+    /*text-shadow: 2px 2px black;*/
 }
 
 #phantom p, #mobile-menu .menu-text {
@@ -181,7 +212,7 @@ img.preload-me {
 }
 
 .menu-item a:hover {
-    box-shadow: 2px 2px crimson;
+    box-shadow: 1px 1px 5px black;
 }
 
 .sub_bg, #sub_bg_calc > div.upb_row_bg:first-of-type, #examples_block, #footer {
@@ -240,13 +271,14 @@ img.preload-me {
 }
 
 .vc_btn3.vc_btn3-color-white {
-    background-color: #9B98AA !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
+    box-shadow: 2px 2px 10px black
 }
 
 .vc_btn3.vc_btn3-size-lg:hover {
+    box-shadow: 5px 5px 15px black;
     background-color: white !important;
-    color: black !important;
 }
 
 #inphoto {

@@ -1,3 +1,1 @@
 # electro_safety
-
-~~~
